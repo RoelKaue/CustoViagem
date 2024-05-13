@@ -80,16 +80,8 @@
                        Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1"
                        Style="{StaticResource TextEntrada}"/>
 
-
-            <Button x:Name="btnPedagio" Text="Adicionar Pedágio"
-                    Grid.Row="8" Grid.Column="1"/>
-
-            <Button x:Name="btnLista" Text="Lista de Pedágio"
-                    Grid.Row="9" Grid.Column="1"/>
-
-
             <Button Text="CALCULAR"
-                    Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="1"
+                    Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="1"
                     Style="{StaticResource RedButton}" Clicked="Button_Calcular"/>
 
         </Grid>
